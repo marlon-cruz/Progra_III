@@ -2,6 +2,7 @@ import tkinter as tk
 from tokenize import blank_re
 
 
+
 class Aplication:
     def __init__(self):
         self.valor = 1
@@ -30,4 +31,4 @@ class Aplication:
         self.label01.configure(text = self.valor)
 
 
-
+ejecutar = Aplication()
